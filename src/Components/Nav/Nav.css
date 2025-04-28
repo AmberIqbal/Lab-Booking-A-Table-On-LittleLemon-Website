@@ -1,0 +1,34 @@
+.navigation {
+  display: flex;
+  float: right;
+  width: 55%;
+  justify-content: space-between;
+  margin: -80px;
+}
+.navbar {
+  display: flex;
+
+  width: 700px;
+  height: 100px;
+}
+.navbar ul {
+  list-style-type: none;
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar li a {
+  display: inline-block;
+  padding: 8px;
+  color: #495e57;
+  font-weight: bold;
+  text-decoration: none;
+}
+li a:hover {
+  color: #0f0f0f;
+}
+.basket {
+  width: 24px;
+  position: relative;
+  top: 14px;
+}

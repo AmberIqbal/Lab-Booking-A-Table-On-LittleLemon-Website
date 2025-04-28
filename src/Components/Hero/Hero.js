@@ -1,6 +1,9 @@
 import React from "react";
-import assetsFood from "../icons_assets/restauranfood.jpg";
+import assetsFood from "../../icons_assets/restauranfood.jpg";
+import "./Hero.css";
+import { useNavigate } from "react-router-dom";
 function Hero() {
+  const navigate = useNavigate();
   return (
     <main>
       <div className="main">
@@ -14,7 +17,9 @@ function Hero() {
             recipes served with a modern <br />
             twist.
           </p>
-          <button>Reserve a Table</button>
+          <button onClick={() => navigate("/reservation")}>
+            Reserve a Table
+          </button>
         </div>
         <div className="chefImg">
           <img src={assetsFood} alt="img" />

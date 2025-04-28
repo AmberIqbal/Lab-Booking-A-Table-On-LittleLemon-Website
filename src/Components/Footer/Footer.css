@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #495e57;
+  padding: 20px;
+}
+.Openingtime {
+  color: #edefee;
+  line-height: 1.2;
+}
+.Contact {
+  color: #edefee;
+  line-height: 1.2;
+}
+.socialMedia {
+  line-height: 1.2;
+}
+.socialMedia a {
+  text-decoration: none;
+  color: #edefee;
+  cursor: pointer;
+}
+.socialMedia a:hover {
+  color: #000a04;
+}
+.socialMedia h2 {
+  color: #edefee;
+}
+.copywrite {
+  color: #edefee;
+  background-color: #495e57;
+
+  margin: -20px;
+}
+.copywrite p {
+  text-align: center;
+}

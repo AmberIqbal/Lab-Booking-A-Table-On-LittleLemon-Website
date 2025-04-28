@@ -1,0 +1,163 @@
+.orderOnline {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+  align-items: center;
+}
+.orderOnline h2 {
+  font-size: 40pt;
+  font-weight: 300;
+  font-family: "Markazi Text", serif;
+}
+.menuButton button {
+  background-color: #f4ce14;
+  width: 180px;
+  height: 60px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-left: 100px;
+  cursor: pointer;
+  border-color: #f4ce14;
+  color: #0f0f0f;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.greekSalad {
+  background-color: #edefee;
+  width: 300px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+  height: 600px;
+}
+.H1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap: 25px;
+}
+.H1 h3 {
+  font-size: 18pt;
+  font-family: "Markazi Text", serif;
+}
+.P1 {
+  color: #ee9972;
+  font-size: 18px;
+}
+.T1 {
+  line-height: 1.4;
+  font-size: 16px;
+  padding: 20px;
+  margin-top: -5px;
+}
+.I1 img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.D1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0px;
+}
+.D1 p {
+  font-size: 18pt;
+  font-family: "Markazi Text", serif;
+  margin: 5px;
+}
+.bruchetta {
+  background-color: #edefee;
+  width: 300px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+  height: 600px;
+}
+.H2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap: 25px;
+}
+.H2 h3 {
+  font-size: 18pt;
+  font-family: "Markazi Text", serif;
+}
+.P2 {
+  color: #ee9972;
+  font-size: 18px;
+}
+.T2 {
+  line-height: 1.4;
+  font-size: 16px;
+  padding: 20px;
+  margin-top: -5px;
+}
+.I2 img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.D2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 22px;
+}
+.D2 p {
+  font-size: 18pt;
+  font-family: "Markazi Text", serif;
+  margin: 5px;
+}
+.lemonDessert {
+  background-color: #edefee;
+  width: 300px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+  height: 600px;
+}
+.H3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap: 25px;
+}
+.H3 h3 {
+  font-size: 18pt;
+  font-family: "Markazi Text", serif;
+}
+.P3 {
+  color: #ee9972;
+  font-size: 18px;
+}
+.T3 {
+  line-height: 1.4;
+  font-size: 16px;
+  padding: 20px;
+  margin-top: -5px;
+}
+.I3 img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.D3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 0px;
+}
+.D3 p {
+  font-size: 18pt;
+  font-family: "Markazi Text", serif;
+  margin: 5px;
+}

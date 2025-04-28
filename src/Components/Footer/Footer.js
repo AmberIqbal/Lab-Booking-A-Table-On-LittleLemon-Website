@@ -1,6 +1,7 @@
 import React from "react";
-import whitelogo from "../icons_assets/logo (1).png";
+import whitelogo from "../../icons_assets/logo (1).png";
 import { Link } from "react-router-dom";
+import "./Footer.css";
 function Footer() {
   return (
     <footer>

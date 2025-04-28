@@ -1,0 +1,103 @@
+.mobileNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 105%;
+  margin: -75px;
+}
+.basket2 {
+  width: 33px;
+}
+.mobile-nav {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .desktop-nav {
+    display: none;
+  }
+  .desktop-logo {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+  }
+  .mobileNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 65px 227px;
+    height: 192px;
+
+    grid-gap: 377px;
+  }
+
+  .mobileNav > div,
+  .mobileNav > button {
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+  }
+
+  .centerLogo {
+    justify-content: center;
+  }
+
+  .navicon2 {
+    justify-content: flex-end;
+  }
+  .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background-color: #fff;
+    display: none;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .menu {
+    text-align: center;
+    margin-left: 228px;
+  }
+
+  .orderOnline {
+    margin-left: 100px;
+  }
+  .cards {
+    gap: 15px;
+  }
+  .footer {
+    width: 174%;
+  }
+  .copywrite {
+    width: 182%;
+  }
+}
+.mobile-menu {
+  color: rgb(15, 15, 15);
+  background-color: white;
+  position: absolute;
+  top: 21%;
+  left: 159px;
+  right: 439px;
+  padding: 10px;
+  display: block;
+  width: 150px;
+  height: 268px;
+}
+
+.mobile-menu ul {
+  list-style-type: none;
+}
+
+.mobile-menu li {
+  margin: 10px 0;
+}
+
+.mobile-menu a {
+  color: rgb(34, 33, 33);
+  text-decoration: none;
+}

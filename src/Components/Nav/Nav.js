@@ -1,27 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import basket from "../icons_assets/basket .svg";
-import Hamburger from "./Hamburger";
+import basket from "../../icons_assets/basket .svg";
+import "./Nav.css";
 
 function Nav() {
   return (
-    <nav>
-      <div className="navigation">
-        <div className="hamburger">
-          <Hamburger />
-        </div>
-        <div className="navicon">
-          <a href="/">
-            <img
-              className="basket"
-              src={basket}
-              alt="img"
-              width="30px"
-              height="50px"
-            />
-          </a>
-        </div>
-      </div>
+    <nav className="navigation">
       <div className="navbar">
         <ul>
           <li>
@@ -34,7 +18,7 @@ function Nav() {
             <a href="/">MENU</a>
           </li>
           <li>
-            <a href="/">RESERVATION</a>
+            <Link to="/reservation">RESERVATION</Link>
           </li>
           <li>
             <a href="/">ORDER ONLINE</a>
@@ -43,6 +27,18 @@ function Nav() {
             <a href="/">LOGIN</a>
           </li>
         </ul>
+
+        <div className="navicon">
+          <a href="/">
+            <img
+              className="basket"
+              src={basket}
+              alt="img"
+              width="30px"
+              height="50px"
+            />
+          </a>
+        </div>
       </div>
     </nav>
   );

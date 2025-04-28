@@ -1,0 +1,9 @@
+.headerwrapper {
+  padding: 170px;
+
+  width: 800px;
+}
+.headerwrapper img {
+  width: 250px;
+  padding-top: 20px;
+}

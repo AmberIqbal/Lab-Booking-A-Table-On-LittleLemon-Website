@@ -1,8 +1,9 @@
 import React from "react";
-import bruchetta from "../icons_assets/bruchetta.svg";
-import greekSalad from "../icons_assets/greek salad.jpg";
-import lemonDessert from "../icons_assets/lemon dessert.jpg";
-import motorbike from "../icons_assets/motorbike_6413312.png";
+import bruchetta from "../../icons_assets/bruchetta.svg";
+import greekSalad from "../../icons_assets/greek salad.jpg";
+import lemonDessert from "../../icons_assets/lemon dessert.jpg";
+import motorbike from "../../icons_assets/motorbike_6413312.png";
+import "./Highlights.css";
 function Highlights() {
   return (
     <div className="menu">
